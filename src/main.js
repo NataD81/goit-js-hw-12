@@ -1,7 +1,8 @@
 import { findImg } from './js/pixabay-api';
 import {
-  downLoadImg,
+  
   imgGallery,
+  downLoadImg,
   showLoading,
   hideLoading,
   showLoadMoreBtn,
