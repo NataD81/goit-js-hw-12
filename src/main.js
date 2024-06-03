@@ -9,8 +9,12 @@ import {
   showError,
   showEndOfResults
 } from './js/render-functions';
+import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
+import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+import axios from 'axios';
+
 
 const form = document.querySelector(".form");
 const gallery = document.querySelector(".gallery");
